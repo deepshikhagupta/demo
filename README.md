@@ -1,5 +1,5 @@
 This application parses the data provided in given csv files and print the result of formatted output on console.
-It also contains test scenarios which test this application.
+It also contains test scenarios which test this application. The coding and testing has been done on Python 2.7.6
 The directory structure is as follows:
 # demo
  * app
@@ -17,8 +17,9 @@ The directory structure is as follows:
 
 **files** folder contains csv files which need to be parsed, **app** contains the python code for parsing the csv files and **tests** contains scenarios which are tested aginst the code
 
-To run this application, please clone the following github-repository:
-https://github.com/deepshikhagupta/demo
+To run this application, please clone the following github-repository as follows:
+
+git clone https://github.com/deepshikhagupta/demo
 
 cd demo
 
@@ -26,5 +27,5 @@ Add the directory to your PYTHONPATH
 
 * For application execution, run:
     * python app/tests.py
-* For tests, run:
+* For test cases, run:
     * python tests/test_data.py
